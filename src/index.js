@@ -9,6 +9,8 @@ import Contact from './Contact.js';
 import Service from './services.js';
 import About from './About.js';
 import US from './US.js';
+import Portfolio from './Portfolio.js';
+import {FaChevronUp} from "react-icons/fa";
 
 
 ReactDOM.render(
@@ -17,9 +19,13 @@ ReactDOM.render(
 	<Hero/>
 	<About/>``
 	<Service/>
-	<Contact/>
+	<Portfolio/>
 	<Team/>
+	<Contact/>
     <Footer/>
+    <a href="#" class="back-to-top"><i ><FaChevronUp/></i></a>
+    <div id="preloader"></div>
+
 	</div>
     ,
   document.getElementById('root')

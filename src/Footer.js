@@ -88,6 +88,7 @@ export default function Footer() {
         Designed by <a href="https://brocode.com/">BROCODE</a>
       </div>
     </div>
+    
   </footer>
      );
 }

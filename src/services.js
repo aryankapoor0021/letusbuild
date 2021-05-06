@@ -22,8 +22,8 @@ function Service() {
       <div class="row">
 
       <ServiceCard
-       heading="Lorem Ipsum"
-       data="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
+       heading="Building Materials"
+       data="One stop solution for your Building Materials needs"
       />
       <ServiceCard
        heading="Lorem Ipsum"
