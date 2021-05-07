@@ -9,21 +9,28 @@ import Contact from './Contact.js';
 import Service from './services.js';
 import About from './About.js';
 import US from './US.js';
+import Products from './Products.js';
 import Portfolio from './Portfolio.js';
-import {FaChevronUp} from "react-icons/fa";
+import Show from './Show.js';
+import Frequentlyaskedquestions from './Frequentlyaskedquestions.js';
+import Plans from './Plans.js';
 
 
 ReactDOM.render(
-<div class="wrap">
-<Header/>
+<div >
+    
+    <Header/>
 	<Hero/>
-	<About/>``
+	<Products/>
+	<About/>
+	<Frequentlyaskedquestions/>
 	<Service/>
+	<Show/>
 	<Portfolio/>
 	<Team/>
 	<Contact/>
     <Footer/>
-    <a href="#" class="back-to-top"><i ><FaChevronUp/></i></a>
+    <a href="#" class="back-to-top"><i class="fas fa-chevron-up" ></i></a>
     <div id="preloader"></div>
 
 	</div>

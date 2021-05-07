@@ -1,5 +1,6 @@
 import "./Header.css";
 import React from 'react';
+import LoginModal from './LoginModal.js';
 
 export default function Header() {
   return (
@@ -15,34 +16,40 @@ export default function Header() {
         <ul class="navbar-nav">
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
+          <li class="drop-down"><a href="#services">Services<i class="fas fa-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
+              <li><a href="#">Building Materials</a></li>
+              <li><a href="#">Construction Team</a></li>
+              <li><a href="#">Plumber</a></li>
+              <li><a href="#">Electrician</a></li>
+              <li class="drop-down"><a href="#">Many More</a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="#">Architect</a></li>
+                  <li><a href="#">Carpenter</a></li>
+                  <li><a href="#">Painter</a></li>
+                  <li><a href="#">Mason</a></li>
+                  <li><a href="#">Construction Helper</a></li>
+                  <li><a href="#">More</a></li>
+
+
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
 
         </ul>
       </div>
       </nav>
       &nbsp;&nbsp;&nbsp;
-      <a href="#about" class="get-started-btn scrollto">Get Started</a>
-
+      
+  <LoginModal/>
+  <div class="text-center">
+  <a href="" class="get-started-btn scrollto btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLRForm">
+  Login/SignUp</a>
+</div>
     </div>
   </header>
   );

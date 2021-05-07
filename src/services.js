@@ -16,26 +16,26 @@ function Service() {
 
       <div class="section-title">
         <h2>Services</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>Time to end your worries on anything related to your Construction work, letusbuild is here with you , From building Materials to Construction Team to Architect and Plumbing or Electrical Services and many more we are here.</p>
       </div>
 
       <div class="row">
 
-      <ServiceCard
+      <ServiceCard 
        heading="Building Materials"
        data="One stop solution for your Building Materials needs"
       />
       <ServiceCard
-       heading="Lorem Ipsum"
-       data="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
+       heading="Construction Team"
+       data="Need any rennovations or Project from scratch ,Team of experienced professionals is here"
       />
       <ServiceCard
-       heading="Lorem Ipsum"
-       data="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
+       heading="Plumbing Services"
+       data="All your Sanitary Rennovations and Repair Work is our Headache now Just book your time slot"
       />
       <ServiceCard
-       heading="Lorem Ipsum"
-       data="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
+       heading="Electrician"
+       data="Neeed any RepairWork or rennovations in previous fiitings just register yourself our team will be their with you."
       />
 
 

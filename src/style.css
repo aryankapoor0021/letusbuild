@@ -1,7 +1,26 @@
+  
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #47b2e4;
+}
+
+a:hover {
+  color: #73c5eb;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jost", sans-serif;
+}
+
 section{
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -635,6 +654,8 @@ section {
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
+
+  
   padding: 12px 32px;
   border-radius: 4px;
   transition: 0.3s;
@@ -886,7 +907,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("") fixed center center;
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("https://wallpapercave.com/wp/wp2752752.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
