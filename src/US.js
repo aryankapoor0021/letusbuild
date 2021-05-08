@@ -6,7 +6,7 @@ import React from 'react';
 export default function US() {
   return (
    <section id="why-us" class="why-us section-bg">
-      <div class="container-fluid" data-aos="fade-up">
+      <div class="container-fluid" data-aos="zoom-out">
 
         <div class="row">
 
@@ -53,7 +53,7 @@ export default function US() {
 
           </div>
 
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img " id="backimg"  data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
         </div>
 
       </div>

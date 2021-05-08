@@ -1,62 +1,69 @@
 import './style.css';
 
-export default function Plans()
-{(<section id="pricing" class="pricing">
+
+export default function Plans(){
+  return(
+    <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Plans</h2>
+          <p>Our Top Selling Plans are listed below have a look and choose what is Best for you</p>
         </div>
 
         <div class="row">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4" data-aos="flip-left" data-aos-duration="900">
             <div class="box">
-              <h3>Free Plan</h3>
-              <h4><sup>$</sup>0<span>per month</span></h4>
+              <h3>Single Professional Plan</h3>
+              <h4><sup>&#8377;</sup>299<span>onwards</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                <li><i class="fas fa-check"></i> Include Single Individual</li>
+                <li><i class="fas fa-check"></i> Plumbers,Carpenters,Electricians,Painters etc </li>
+                <li><i class="fas fa-check"></i> Basic Household or Office Problems are fixed</li>
+                <li class="na"><i class="fas fa-x"></i> <span> Team of 10 Members will be there</span></li>
+                <li class="na"><i class="fas fa-x"></i> <span> Full Customer Care Support will be provided</span></li>
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <a href="#" class="buy-btn">Get Details</a>
             </div>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-duration="900">
             <div class="box featured">
-              <h3>Business Plan</h3>
-              <h4><sup>$</sup>29<span>per month</span></h4>
+              <h3>Renovation Plan</h3>
+              <h4><sup>&#8377;</sup>1999<span>onwards</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="fas fa-check"></i> Plan include complete Renovation of your place</li>
+                <li><i class="fas fa-check"></i> Charges will be decided according to your selection</li>
+                <li><i class="fas fa-check"></i> Full Customer Care Support will be provided</li>
+                <li><i class="fas fa-check"></i> Team of minimum !0 Professionals will be there</li>
+                <li><i class="fas fa-check"></i> Increasing team size will Cost more costs</li>
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <a href="#" class="buy-btn"> Get Details</a>
+              
             </div>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="flip-right" data-aos-duration="900">
             <div class="box">
-              <h3>Developer Plan</h3>
-              <h4><sup>$</sup>49<span>per month</span></h4>
+              <h3>Construction Plan</h3>
+              <h4><sup>&#8377;</sup>49999<span>onwards</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="fas fa-check"></i> Plan includes construction of anything</li>
+                <li><i class="fas fa-check"></i> Construction can be of a single room to a full house</li>
+                <li><i class="fas fa-check"></i> Full Customer Support Will be Provided</li>
+                <li><i class="fas fa-check"></i> Architect will be provided at discounted price</li>
+                <li><i class="fas fa-check"></i> Minimum team of 15 Professionals will be there</li>
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <a href="#" class="buy-btn">Get Details</a>
             </div>
           </div>
 
+           
+        
         </div>
 
       </div>
-    </section>)}
+    </section>
+    );
+}

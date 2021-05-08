@@ -1,6 +1,7 @@
 import './style.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import LoginModal from './LoginModal.js';
 import Team from './Team.js';
 import Header from './Header.js';
 import Hero from './Hero.js';
@@ -17,22 +18,24 @@ import Plans from './Plans.js';
 
 
 ReactDOM.render(
+
 <div >
-    
+    <LoginModal/>
     <Header/>
 	<Hero/>
 	<Products/>
+	<US/>
 	<About/>
 	<Frequentlyaskedquestions/>
 	<Service/>
 	<Show/>
 	<Portfolio/>
 	<Team/>
+	<Plans/>
 	<Contact/>
     <Footer/>
     <a href="#" class="back-to-top"><i class="fas fa-chevron-up" ></i></a>
     <div id="preloader"></div>
-
 	</div>
     ,
   document.getElementById('root')

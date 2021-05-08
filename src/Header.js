@@ -1,10 +1,10 @@
 import "./Header.css";
-import React from 'react';
 import LoginModal from './LoginModal.js';
 
 export default function Header() {
   return (
    <header id="header" class="fixed-top ">
+
     <div class="container d-flex align-items-center">
 
       <h1 class="logo mr-auto"><a href="index.html"><img src=""/>LETUSBUILD</a></h1>
@@ -44,13 +44,9 @@ export default function Header() {
       </div>
       </nav>
       &nbsp;&nbsp;&nbsp;
-      
-  <LoginModal/>
-  <div class="text-center">
-  <a href="" class="get-started-btn scrollto btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLRForm">
-  Login/SignUp</a>
-</div>
-    </div>
+    <LoginModal/>
+    
+  </div>
   </header>
   );
 }
