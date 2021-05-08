@@ -3,16 +3,19 @@ import LoginModal from './LoginModal.js';
 
 export default function Header() {
   return (
-   <header id="header" class="fixed-top ">
+    <header id="header" class="fixed-top ">
 
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html"><img src=""/>LETUSBUILD</a></h1>
-      <nav class="nav-menu navbar navbar-expand-lg navbar-dark ">
+    <h1 class="logo mr-auto"><a href="index.html"><img src=""/>LETUSBUILD</a></h1>
+
+    <nav class="nav-menu navbar navbar-expand-lg navbar-dark ">
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav">
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -42,10 +45,11 @@ export default function Header() {
 
         </ul>
       </div>
+
+      
       </nav>
-      &nbsp;&nbsp;&nbsp;
-    <LoginModal/>
-    
+
+  <LoginModal/>
   </div>
   </header>
   );

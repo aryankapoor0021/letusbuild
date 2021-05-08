@@ -14,20 +14,19 @@ export default function About() {
         <div class="row content">
           <div class="col-lg-6">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+               We are One of the first Construction cum Renovation cum daily household problem solver company ,Why fear when letusbuid is here.
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="far fa-check-double"></i> From Constructing Room to A Villa</li>
+              <li><i class="far fa-check-double"></i> From Renovating a Room to Renovating a Mansion</li>
+              <li><i class="far fa-check-double"></i> From Basic Plumbing Service to Architects we got all covered</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+               We are fully dedicated towards providing you with best experience as one of the first Construction cum renovation Service Provider.
+               We are One of the first Construction cum Renovation cum daily household problem solver company ,Why fear when letusbuid is here.
+               Currently we are operational in limited cities but our main focus is on including as many people as we can So hang in there we will be there with you soon.
             </p>
             <a href="#" class="btn-learn-more">Learn More</a>
           </div>
