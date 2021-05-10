@@ -1,10 +1,10 @@
-
+import './Header.css';
 export default function LoginModal(){
 
 return(
 <div>  
 <div class="text-center">
-  <a href="" class="get-started-btn scrollto btn btn-default btn-rounded my-3" data-controls-modal="#modalLRForm" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#modalLRForm">Login/SignUp</a>
+  <a href="" class="get-started-btn scrollto btn btn-default btn-outline-secondary btn-rounded my-3 " data-controls-modal="#modalLRForm" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#modalLRForm">Login/SignUp</a>
  
   </div>
 <div class="modal fade" id="modalLRForm" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -42,12 +42,12 @@ return(
                 <button class="btn btn-dark">Log in <i class="fas fa-sign-in ml-1"></i></button>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-light">
               <div class="options text-center text-md-right mt-1">
                 <p>Not a member? <a href="#" class="text-info">Sign Up</a></p>
                 <p><a href="#" class="text-info">Forgot Password?</a></p>
               </div>
-              <button type="button" class="btn btn-outline-dark waves-effect ml-auto" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-secondary waves-effect ml-auto text-dark" data-dismiss="modal">Close</button>
             </div>
 
           </div>
@@ -76,11 +76,11 @@ return(
               </div>
 
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-light">
               <div class="options text-right">
                 <p class="pt-1">Already have an account? <a href="" class="text-info">Log In</a></p>
               </div>
-              <button type="button" class="btn btn-outline-dark waves-effect ml-auto" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-secondary waves-effect ml-auto text-dark" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
