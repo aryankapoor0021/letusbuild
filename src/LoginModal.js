@@ -4,7 +4,7 @@ export default function LoginModal(){
 return(
 <div>  
 <div class="text-center">
-  <a href="" class="get-started-btn scrollto btn btn-default btn-outline-secondary btn-rounded my-3 " data-controls-modal="#modalLRForm" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#modalLRForm">Login/SignUp</a>
+  <a href="" class="get-started-btn scrollto btn btn-default  btn-rounded my-3 " data-controls-modal="#modalLRForm" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#modalLRForm">Login/SignUp</a>
  
   </div>
 <div class="modal fade" id="modalLRForm" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
