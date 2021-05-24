@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function US() {
   return (
-   <section id="why-us" class="why-us section-bg">
+   <section id="why-us" class="why-us section-bg ">
       <div class="container-fluid" data-aos="zoom-out">
 
         <div class="row">
